@@ -13,7 +13,7 @@ Set up the Google Cloud SDK: Run the following command to initialize the SDK and
 Install the Google Cloud Vision library: Run the following command to install the Google Cloud Vision client library for Python:
 
 
-```pip install -r requiremnts.txt```
+```pip3 install -r requirements.txt```
 
 Set the ```GOOGLE_APPLICATION_CREDENTIALS environment variable: Set the GOOGLE_APPLICATION_CREDENTIALS``` environment variable to the path of your Google Cloud 
 
@@ -25,6 +25,6 @@ service account key. For example:
 Run the script: Run the script from the command line using the input and output directory paths as arguments. For example:
 
 
-```python extract.py path/to/input/directory path/to/output/directory```
+```python3 extract.py path/to/input/directory path/to/output/directory```
 
 This should convert the PDF files in the input directory to text files and save them in the output directory.
