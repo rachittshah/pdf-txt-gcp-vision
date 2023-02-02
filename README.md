@@ -13,7 +13,7 @@ Set up the Google Cloud SDK: Run the following command to initialize the SDK and
 Install the Google Cloud Vision library: Run the following command to install the Google Cloud Vision client library for Python:
 
 
-```pip install --upgrade google-cloud-vision```
+```pip install -r requiremnts.txt```
 
 Set the ```GOOGLE_APPLICATION_CREDENTIALS environment variable: Set the GOOGLE_APPLICATION_CREDENTIALS``` environment variable to the path of your Google Cloud 
 
